@@ -1,0 +1,153 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff8e1;
+  line-height: 1.6;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.text-content {
+  flex-grow: 1;
+  background: #fff4e1;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* Inputs & Buttons */
+.text-content input {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  font-size: 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.text-content button {
+  display: flex;
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(128, 0, 0);
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* Sidebar */
+.sidebar {
+  display: flex;
+  background: #982B1C;
+  padding: 1rem;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sidebar img {
+  width: 90px;
+  height: auto;
+}
+
+.sidebar a {
+  display: block;
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(128, 0, 0);
+  text-align: center;
+  font-size: 1rem;
+}
+
+.sidebar a:hover {
+  background-color: #c17167;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  background: rgb(128, 0, 0);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.0rem;
+  flex-shrink: 0;
+}
+
+.footer p {
+  margin-left: 20px;
+}
+
+.icon-container {
+  display: flex;
+  font-size: 2rem;
+}
+
+/* Error Messages */
+.p-error {
+  color: red;
+  padding: 0.2rem;
+}
+
+/* Card Styles */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+  max-width: 300px;
+}
+.card img{
+  border-radius: 5px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-description {
+  font-size: 1rem;
+  text-align: center;
+  color: #555;
+}
+
+/* Content Styles */
+
+.content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
